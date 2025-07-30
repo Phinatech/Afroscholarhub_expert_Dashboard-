@@ -1,0 +1,38 @@
+.css-button-sliding-to-left--sky {
+    min-width: 130px;
+    height: 45px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 0 10px 0 10px;
+    z-index: 0;
+    background: #000;
+    overflow: hidden;
+    /* border: 2px solid #4433ff; */
+    color: #fff;
+  }
+  .css-button-sliding-to-left--sky:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  .css-button-sliding-to-left--sky:hover:after {
+    width: 100%;
+  }
+  .css-button-sliding-to-left--sky:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.9s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #fff;
+  }

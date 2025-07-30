@@ -1,0 +1,34 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #000;
+}
+
+/* Global scrollbar styling */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #6a11cb, #2575fc); /* Thumb color */
+  border-radius: 6px; /* Round edges */
+  border: 3px solid #f9ffec; /* Space around thumb for a clean look */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #4e0ecc, #0e76fa); /* Change color on hover */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f4f8; /* Track color */
+  border-radius: 6px;
+}
